@@ -1,0 +1,317 @@
+2016-11-03 00:03:59,658+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.feature.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:778) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:03:59,664+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.bundle.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:778) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:03:59,666+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.system.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:778) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:03:59,668+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.shell.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:773) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:03:59,670+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.jaas.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:778) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:03:59,673+0000 WARN  [pool-15-thread-1]  org.apache.karaf.features.internal.service.FeaturesServiceImpl - Can't update cfg file
+java.io.FileNotFoundException: /opt/sonatype/nexus/etc/org.apache.karaf.command.acl.config.cfg (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) [na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) [na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) [na:1.8.0_102]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:152) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.felix.utils.properties.Properties.save(Properties.java:148) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.updateStorage(FeatureConfigInstaller.java:292) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeatureConfigInstaller.installFeatureConfigs(FeatureConfigInstaller.java:107) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.installFeature(FeaturesServiceImpl.java:1166) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:778) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1089) [org.apache.karaf.features.core:4.0.4]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl$1.call(FeaturesServiceImpl.java:985) [org.apache.karaf.features.core:4.0.4]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+2016-11-03 00:04:00,009+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder - Properties:
+2016-11-03 00:04:00,011+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-host='0.0.0.0'
+2016-11-03 00:04:00,012+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-port='8081'
+2016-11-03 00:04:00,012+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.base='/opt/sonatype/nexus'
+2016-11-03 00:04:00,013+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.data='/nexus-data'
+2016-11-03 00:04:00,013+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.etc='/opt/sonatype/nexus/etc'
+2016-11-03 00:04:00,013+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.home='/opt/sonatype/nexus'
+2016-11-03 00:04:00,014+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.instances='/nexus-data/instances'
+2016-11-03 00:04:00,014+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-args='/opt/sonatype/nexus/etc/jetty.xml,/opt/sonatype/nexus/etc/jetty-http.xml,/opt/sonatype/nexus/etc/jetty-requestlog.xml'
+2016-11-03 00:04:00,014+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-context-path='/'
+2016-11-03 00:04:00,014+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-edition='nexus-oss-edition'
+2016-11-03 00:04:00,014+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-features='nexus-oss-feature'
+2016-11-03 00:04:00,015+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - Java: 1.8.0_102, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation, 25.102-b14
+2016-11-03 00:04:00,016+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - OS: Linux, 4.4.0-45-generic, amd64
+2016-11-03 00:04:00,016+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - User: nexus, en, /nexus-data
+2016-11-03 00:04:00,016+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - CWD: /opt/sonatype/nexus
+2016-11-03 00:04:00,019+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - TMP: /nexus-data/tmp
+2016-11-03 00:04:00,024+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting
+2016-11-03 00:04:00,039+0000 INFO  [pool-15-thread-1] *SYSTEM org.eclipse.jetty.util.log - Logging initialized @2163ms
+2016-11-03 00:04:00,042+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty.xml
+2016-11-03 00:04:00,149+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty-http.xml
+2016-11-03 00:04:00,171+0000 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty-requestlog.xml
+2016-11-03 00:04:00,192+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting: org.eclipse.jetty.server.Server@140260c0
+2016-11-03 00:04:00,198+0000 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.Server - jetty-9.3.7.v20160115
+2016-11-03 00:04:00,255+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Initializing
+2016-11-03 00:04:00,257+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installing: nexus-oss-edition/3.0.2.02
+2016-11-03 00:04:02,195+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installed: nexus-oss-edition/3.0.2.02
+2016-11-03 00:04:02,933+0000 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Global session timeout: 1800000 ms
+2016-11-03 00:04:02,933+0000 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Session-cookie prototype: name=NXSESSIONID
+2016-11-03 00:04:03,043+0000 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.nexus.NexusCookieRememberMeManager - Cookie prototype: name=NXREMEMBERME, max-age=2592000
+2016-11-03 00:04:03,076+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.apache.tika.core [104]
+2016-11-03 00:04:03,212+0000 INFO  [jetty-main-1] *SYSTEM org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.2.Final
+2016-11-03 00:04:03,379+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.apache.tika.core [104]
+2016-11-03 00:04:03,380+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.common [123]
+2016-11-03 00:04:03,426+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.common [123]
+2016-11-03 00:04:03,426+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.hibernate.validator [108]
+2016-11-03 00:04:03,464+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.hibernate.validator [108]
+2016-11-03 00:04:03,466+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.commands [122]
+2016-11-03 00:04:03,513+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.commands [122]
+2016-11-03 00:04:03,514+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.crypto [124]
+2016-11-03 00:04:03,579+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.crypto [124]
+2016-11-03 00:04:03,580+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.jmx [132]
+2016-11-03 00:04:03,621+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.jmx [132]
+2016-11-03 00:04:03,622+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.orient [134]
+2016-11-03 00:04:03,708+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.orient [134]
+2016-11-03 00:04:03,709+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.security [141]
+2016-11-03 00:04:03,923+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.security [141]
+2016-11-03 00:04:03,924+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.servlet [142]
+2016-11-03 00:04:03,958+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.servlet [142]
+2016-11-03 00:04:03,959+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.base [116]
+2016-11-03 00:04:04,195+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.metrics.MetricsModule - Metrics support configured
+2016-11-03 00:04:04,562+0000 INFO  [jetty-main-1] *SYSTEM com.orientechnologies - OrientDB auto-config DISKCACHE=12,813MB (heap=1,150MB os=16,011MB disk=179,952MB)
+2016-11-03 00:04:05,071+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.common.event.EventBusImpl - Delegate: com.google.common.eventbus.ReentrantEventBus@7d9f18ea
+2016-11-03 00:04:05,486+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.base [116]
+2016-11-03 00:04:05,487+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.blobstore-file [118]
+2016-11-03 00:04:05,534+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.blobstore-file [118]
+2016-11-03 00:04:05,535+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.cache [120]
+2016-11-03 00:04:05,579+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.cache [120]
+2016-11-03 00:04:05,584+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.capability [121]
+2016-11-03 00:04:05,666+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.capability [121]
+2016-11-03 00:04:05,666+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.email [125]
+2016-11-03 00:04:05,715+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.email [125]
+2016-11-03 00:04:05,720+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.extdirect [126]
+2016-11-03 00:04:05,799+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.extdirect [126]
+2016-11-03 00:04:05,800+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.httpclient [131]
+2016-11-03 00:04:05,850+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.httpclient [131]
+2016-11-03 00:04:05,851+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.oss-edition [135]
+2016-11-03 00:04:05,916+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.oss-edition [135]
+2016-11-03 00:04:05,917+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rapture [137]
+2016-11-03 00:04:06,210+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rapture [137]
+2016-11-03 00:04:06,211+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rest-jackson2 [139]
+2016-11-03 00:04:06,289+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rest-jackson2 [139]
+2016-11-03 00:04:06,289+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.scheduling [140]
+2016-11-03 00:04:06,398+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.scheduling [140]
+2016-11-03 00:04:06,399+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.siesta [143]
+2016-11-03 00:04:06,540+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.siesta [143]
+2016-11-03 00:04:06,568+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start LOGGING
+2016-11-03 00:04:06,574+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.log.LogbackLoggerOverrides - File: /nexus-data/logback/logback-overrides.xml
+2016-11-03 00:04:06,587+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.log.LogbackLogManager - Configuring
+2016-11-03 00:04:06,592+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start STORAGE
+2016-11-03 00:04:06,641+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseServerImpl - OrientDB version: 2.1.10
+2016-11-03 00:04:06,664+0000 INFO  [jetty-main-1] *SYSTEM com.orientechnologies.orient.server.OServer - OrientDB Server v2.1.10 is starting up...
+2016-11-03 00:04:06,686+0000 INFO  [jetty-main-1] *SYSTEM com.orientechnologies.orient.server.OServer - Databases directory: /nexus-data/db
+2016-11-03 00:04:06,705+0000 INFO  [jetty-main-1] *SYSTEM com.orientechnologies.orient.server.handler.OJMXPlugin - JMX plugin installed and active: profilerManaged=true
+2016-11-03 00:04:06,707+0000 INFO  [jetty-main-1] *SYSTEM com.orientechnologies.orient.server.OServer - OrientDB Server v2.1.10 is active.
+2016-11-03 00:04:06,707+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseServerImpl - Activated
+2016-11-03 00:04:09,438+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.security.model.OrientSecurityConfigurationSource - Initializing default users
+2016-11-03 00:04:10,140+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.security.model.OrientSecurityConfigurationSource - Initializing default user/role mappings
+2016-11-03 00:04:10,429+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start EVENTS
+2016-11-03 00:04:10,444+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Installing: [nexus-oss-feature/3.0.2.02]
+2016-11-03 00:04:13,231+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.selector [191]
+2016-11-03 00:04:13,385+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.selector [191]
+2016-11-03 00:04:13,388+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.repository [189]
+2016-11-03 00:04:13,948+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.repository [189]
+2016-11-03 00:04:13,948+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-maven [185]
+2016-11-03 00:04:14,113+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-maven [185]
+2016-11-03 00:04:14,116+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.quartz [188]
+2016-11-03 00:04:14,228+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.quartz [188]
+2016-11-03 00:04:14,231+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-httpbridge [184]
+2016-11-03 00:04:14,315+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-httpbridge [184]
+2016-11-03 00:04:14,316+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-coreui-plugin [183]
+2016-11-03 00:04:14,702+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-coreui-plugin [183]
+2016-11-03 00:04:14,703+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.core [181]
+2016-11-03 00:04:16,109+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.core [181]
+2016-11-03 00:04:16,110+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-raw [186]
+2016-11-03 00:04:16,181+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-raw [186]
+2016-11-03 00:04:16,184+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.elasticsearch [182]
+2016-11-03 00:04:16,226+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.elasticsearch [182]
+2016-11-03 00:04:16,226+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-ssl-plugin [187]
+2016-11-03 00:04:16,287+0000 INFO  [pool-35-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-ssl-plugin [187]
+2016-11-03 00:04:16,307+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Installed: [nexus-oss-feature/3.0.2.02]
+2016-11-03 00:04:16,318+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rest-client [224]
+2016-11-03 00:04:16,370+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rest-client [224]
+2016-11-03 00:04:16,370+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-analytics-plugin [203]
+2016-11-03 00:04:16,520+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-analytics-plugin [203]
+2016-11-03 00:04:16,521+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING wrap_file__opt_sonatype_nexus_system_com_sonatype_insight_scan_insight-scanner-core_2.3.1_insight-scanner-core-2.3.1.jar [227]
+2016-11-03 00:04:16,576+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED wrap_file__opt_sonatype_nexus_system_com_sonatype_insight_scan_insight-scanner-core_2.3.1_insight-scanner-core-2.3.1.jar [227]
+2016-11-03 00:04:16,577+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING wrap_file__opt_sonatype_nexus_system_com_sonatype_insight_scan_insight-scanner-model-io_2.3.1_insight-scanner-model-io-2.3.1.jar [228]
+2016-11-03 00:04:16,619+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED wrap_file__opt_sonatype_nexus_system_com_sonatype_insight_scan_insight-scanner-model-io_2.3.1_insight-scanner-model-io-2.3.1.jar [228]
+2016-11-03 00:04:16,620+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-healthcheck-base [204]
+2016-11-03 00:04:16,712+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-healthcheck-base [204]
+2016-11-03 00:04:16,714+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-healthcheck-oss-plugin [205]
+2016-11-03 00:04:16,755+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-healthcheck-oss-plugin [205]
+2016-11-03 00:04:16,756+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-ldap-plugin [206]
+2016-11-03 00:04:18,051+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.ldap.persist.internal.orient.LdapConfigurationEntityAdapter - Created schema: ldap, properties: [mapping (type=EMBEDDED), name (type=STRING), connection (type=EMBEDDED), id (type=STRING), order (type=INTEGER)]
+2016-11-03 00:04:19,890+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-ldap-plugin [206]
+2016-11-03 00:04:19,890+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-nuget [214]
+2016-11-03 00:04:20,096+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-nuget [214]
+2016-11-03 00:04:20,112+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-migration-plugin [207]
+2016-11-03 00:04:20,462+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-migration-plugin [207]
+2016-11-03 00:04:20,464+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-outreach-plugin [208]
+2016-11-03 00:04:20,518+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-outreach-plugin [208]
+2016-11-03 00:04:20,520+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-proui-plugin [209]
+2016-11-03 00:04:20,549+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-proui-plugin [209]
+2016-11-03 00:04:20,551+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-proximanova-plugin [210]
+2016-11-03 00:04:20,590+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-proximanova-plugin [210]
+2016-11-03 00:04:20,592+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-bower [211]
+2016-11-03 00:04:20,688+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-bower [211]
+2016-11-03 00:04:20,691+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-docker [212]
+2016-11-03 00:04:20,931+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-docker [212]
+2016-11-03 00:04:20,940+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-npm [213]
+2016-11-03 00:04:21,086+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-npm [213]
+2016-11-03 00:04:21,088+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-pypi [215]
+2016-11-03 00:04:21,160+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-pypi [215]
+2016-11-03 00:04:21,161+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-rubygems [216]
+2016-11-03 00:04:21,232+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-rubygems [216]
+2016-11-03 00:04:21,233+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-rutauth-plugin [217]
+2016-11-03 00:04:21,260+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-rutauth-plugin [217]
+2016-11-03 00:04:21,261+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-script-plugin [223]
+2016-11-03 00:04:21,324+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-script-plugin [223]
+2016-11-03 00:04:21,326+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusLifecycleManager - Start SECURITY
+2016-11-03 00:04:21,347+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.security.internal.RealmManagerImpl - Using default configuration: RealmConfiguration{realmNames=[NexusAuthenticatingRealm, NexusAuthorizingRealm]}
+2016-11-03 00:04:21,391+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.cache.internal.RuntimeCacheManagerProvider - Cache-provider: ehcache
+2016-11-03 00:04:21,408+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.cache.internal.ehcache.EhCacheManagerProvider - Creating cache-manager with configuration: file:/opt/sonatype/nexus/etc/ehcache.xml
+2016-11-03 00:04:21,710+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusLifecycleManager - Start CAPABILITIES
+2016-11-03 00:04:24,528+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Thread-pool size: 20
+2016-11-03 00:04:24,626+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusLifecycleManager - Start SERVICES
+2016-11-03 00:04:24,642+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.internal.node.LocalNodeAccessImpl - Generating certificate
+2016-11-03 00:04:25,239+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.internal.node.LocalNodeAccessImpl - ID: A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61
+2016-11-03 00:04:26,174+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.blobstore.file.internal.BlobStoreMetricsStoreImpl - Blob store metrics file /nexus-data/blobs/default/metrics.properties not found - initializing at zero.
+2016-11-03 00:04:28,025+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.internal.httpclient.HttpClientManagerImpl - Using default configuration: HttpClientConfiguration{connection=null, proxy=null, authentication=null}
+2016-11-03 00:04:28,215+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.elasticsearch.internal.NodeProvider - Creating node with config: /opt/sonatype/nexus/etc/elasticsearch.yml
+2016-11-03 00:04:28,370+0000 INFO  [FelixStartLevel]  org.elasticsearch.node - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] version[2.2.0], pid[1], build[NA/NA]
+2016-11-03 00:04:28,370+0000 INFO  [FelixStartLevel]  org.elasticsearch.node - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] initializing ...
+2016-11-03 00:04:28,375+0000 INFO  [FelixStartLevel]  org.elasticsearch.plugins - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] modules [], plugins [], sites []
+2016-11-03 00:04:28,396+0000 INFO  [FelixStartLevel]  org.elasticsearch.env - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] using [1] data paths, mounts [[/nexus-data (/dev/sda2)]], net usable_space [32gb], net total_space [91.5gb], spins? [possibly], types [ext4]
+2016-11-03 00:04:28,396+0000 INFO  [FelixStartLevel]  org.elasticsearch.env - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] heap size [1.1gb], compressed ordinary object pointers [true]
+2016-11-03 00:04:30,005+0000 INFO  [FelixStartLevel]  org.elasticsearch.node - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] initialized
+2016-11-03 00:04:30,005+0000 INFO  [FelixStartLevel]  org.elasticsearch.node - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] starting ...
+2016-11-03 00:04:30,006+0000 INFO  [FelixStartLevel]  org.elasticsearch.transport - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] publish_address {local[1]}, bound_addresses {local[1]}
+2016-11-03 00:04:30,012+0000 INFO  [FelixStartLevel]  org.elasticsearch.discovery - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] nexus/vTUTJD8SR7mN3IKBjt94Jw
+2016-11-03 00:04:30,014+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.service - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] master {new {A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61}{vTUTJD8SR7mN3IKBjt94Jw}{local}{local[1]}{local=true, master=true}}, removed {{A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61}{zvV9_QBNSLaNMwSFWzQSnA}{local}{local[1]}{local=true, master=true},}, reason: local-disco-initial_connect(master)
+2016-11-03 00:04:30,021+0000 INFO  [FelixStartLevel]  org.elasticsearch.node - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] started
+2016-11-03 00:04:30,063+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.gateway - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] recovered [0] indices into cluster_state
+2016-11-03 00:04:30,244+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.metadata - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] [2e9a1e67e8a325bcd6ee9f6790ff6c769e791d56] creating index, cause [api], templates [], shards [5]/[1], mappings [component]
+2016-11-03 00:04:30,410+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.metadata - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] [73ae44bc066b6a7a33b4435641d8229b9b66495a] creating index, cause [api], templates [], shards [5]/[1], mappings [component]
+2016-11-03 00:04:30,440+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.metadata - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] [51196dce51055df9247e1973e443b68c84549dd9] creating index, cause [api], templates [], shards [5]/[1], mappings [component]
+2016-11-03 00:04:30,493+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.metadata - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] [3d781e8165513bfe7db3d7eaab3991b9ebec763b] creating index, cause [api], templates [], shards [5]/[1], mappings [component]
+2016-11-03 00:04:30,783+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.routing.allocation - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[2e9a1e67e8a325bcd6ee9f6790ff6c769e791d56][4], [2e9a1e67e8a325bcd6ee9f6790ff6c769e791d56][4]] ...]).
+2016-11-03 00:04:30,795+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.metadata - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] [b2b9b8f06274052a44b61ef3c7e887f0961d99c6] creating index, cause [api], templates [], shards [5]/[1], mappings [component]
+2016-11-03 00:04:30,887+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.quartz.internal.orient.JobStoreImpl - Instance name: nexus; ID: A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61
+2016-11-03 00:04:30,891+0000 INFO  [elasticsearch[A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61][clusterService#updateTask][T#1]]  org.elasticsearch.cluster.routing.allocation - [A364E0E3-9C9ABB66-08E783A2-E316F2DB-A100CE61] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[b2b9b8f06274052a44b61ef3c7e887f0961d99c6][0], [b2b9b8f06274052a44b61ef3c7e887f0961d99c6][4], [b2b9b8f06274052a44b61ef3c7e887f0961d99c6][0]] ...]).
+2016-11-03 00:04:32,002+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.quartz.internal.orient.JobStoreImpl - Initialized
+2016-11-03 00:04:32,009+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Quartz Scheduler v2.2.2
+2016-11-03 00:04:32,018+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.extender.NexusLifecycleManager - Start TASKS
+2016-11-03 00:04:32,020+0000 INFO  [FelixStartLevel]  org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Scheduler put into ready mode
+2016-11-03 00:04:32,038+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Initialized
+2016-11-03 00:04:32,047+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle - UI plugin descriptors:
+2016-11-03 00:04:32,047+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-rapture
+2016-11-03 00:04:32,048+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-proximanova-plugin
+2016-11-03 00:04:32,048+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-coreui-plugin
+2016-11-03 00:04:32,048+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-proui-plugin
+2016-11-03 00:04:32,051+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.webresources.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2016-11-03 00:04:32,070+0000 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.servlet.DirectJNgineServlet - Servlet GLOBAL configuration: debug=false, providersUrl=service/extdirect, minify=false, batchRequestsMultithreadingEnabled=true, batchRequestsMinThreadsPoolSize=16, batchRequestsMaxThreadsPoolSize=80, batchRequestsMaxThreadsPerRequest=8, batchRequestsMaxThreadKeepAliveSeconds=60, gsonBuilderConfiguratorClass=org.sonatype.nexus.extdirect.internal.ExtDirectGsonBuilderConfigurator, dispatcherClass=com.softwarementors.extjs.djn.servlet.ssm.SsmDispatcher, jsonRequestProcessorThreadClass=org.sonatype.nexus.extdirect.internal.ExtDirectJsonRequestProcessorThread, contextPath=--not specified: calculated via Javascript--, createSourceFiles=true
+2016-11-03 00:04:32,072+0000 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.servlet.DirectJNgineServlet - Servlet GLOBAL configuration: registryConfiguratorClass=
+2016-11-03 00:04:32,086+0000 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.jscodegen.CodeFileGenerator - Creating source files for APIs...
+2016-11-03 00:04:32,180+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.siesta.SiestaServlet - JAX-RS RuntimeDelegate: org.sonatype.nexus.siesta.internal.resteasy.SisuResteasyProviderFactory@6cba620a
+2016-11-03 00:04:32,202+0000 INFO  [jetty-main-1] *SYSTEM org.jboss.resteasy.plugins.validation.i18n - RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-11-03 00:04:32,224+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.siesta.SiestaServlet - Initialized
+2016-11-03 00:04:32,226+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.repository.httpbridge.internal.ViewServlet - Initialized
+2016-11-03 00:04:32,243+0000 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@2feada49{/,file:///opt/sonatype/nexus/public/,AVAILABLE}
+2016-11-03 00:04:32,292+0000 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.ServerConnector - Started ServerConnector@6782da8a{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2016-11-03 00:04:32,292+0000 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.Server - Started @34416ms
+2016-11-03 00:04:32,293+0000 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - 
+-------------------------------------------------
+
+Started Sonatype Nexus OSS 3.0.2-02
+
+-------------------------------------------------

@@ -6,13 +6,17 @@ networks:
 
 services:
  nexus:
+  hostname: 'nexus'
   build: ./nexus
   ports:
     - "18081:8081"
   networks:
     - prodnetwork
+  volumes:
+      - ./nexus/nexus-data:/nexus-data
 
  jenkins:
+  hostname: 'jenkins'
   mem_limit: 800m
   memswap_limit: 500m
   privileged: true
@@ -85,3 +89,7 @@ services:
     - /opt/gitlab/config:/etc/gitlab
     - /opt/gitlab/logs:/var/log/gitlab
     - /opt/gitlab/data:/var/opt/gitlab
+
+
+volumes:
+ nexus-data:
