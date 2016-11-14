@@ -5,21 +5,9 @@ networks:
     driver: bridge
 
 services:
- jenkins:
-    image: jenkins-ci
-    expose:
-        - 8080
-    ports:
-        - "8080:8080"
-    networks:
-        - prodnetwork
-    environment:
-        - JENKINS_HOME=/var/jenkins_home
-    links:
-        - gitlab
 
  gitlab:
-  image: gitlab/gitlab-ce:8.12.6-ce.0
+  image: gitlab/gitlab-ce:latest
   restart: always
   hostname: 'gitlab'
   networks:
@@ -33,6 +21,6 @@ services:
     - "443:443"
     - "2222:22"
   volumes:
-    - /opt/gitlab/config:/etc/gitlab
-    - /opt/gitlab/logs:/var/log/gitlab
-    - /opt/gitlab/data:/var/opt/gitlab
+    - ./gitlab/config:/etc/gitlab
+    - ./gitlab/logs:/var/log/gitlab
+    - ./gitlab/data:/var/opt/gitlab
