@@ -1,3 +1,7 @@
+javadoc:1.0
+jackson2-api:2.5.4
+maven-plugin:2.4
+analysis-core:1.79
 ace-editor:1.1
 branch-api:1.10
 cloudbees-folder:5.12
@@ -37,4 +41,3 @@ workflow-support:2.1
 metrics:3.1.2.9
 urltrigger:0.41
 dependency-check-jenkins-plugin:1.4.3
-jackson2-api:2.5.4

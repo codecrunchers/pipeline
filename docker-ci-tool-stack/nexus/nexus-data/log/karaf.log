@@ -1,8 +1,0 @@
-Nov 03, 2016 12:03:58 AM org.apache.karaf.main.Main launch
-INFO: Installing and starting initial bundles
-Nov 03, 2016 12:03:58 AM org.apache.karaf.main.Main launch
-INFO: All initial bundles installed and set to start
-Nov 03, 2016 12:03:58 AM org.sonatype.nexus.karaf.NexusMain launch
-INFO: ...launched Nexus!
-Nov 03, 2016 12:03:58 AM org.apache.karaf.main.Main$KarafLockCallback lockAquired
-INFO: Lock acquired. Setting startlevel to 100

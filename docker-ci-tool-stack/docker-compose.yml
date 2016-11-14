@@ -7,7 +7,7 @@ networks:
 services:
  nexus:
   hostname: 'nexus'
-  build: ./nexus
+  image:  ci/nexus
   ports:
     - "18081:8081"
   networks:
@@ -27,7 +27,7 @@ services:
   networks:
     - prodnetwork
   volumes:
-      - ./jenkins-ci/JENKINS_HOME:/var_jenkins/home
+      # - ./jenkins-ci/JENKINS_HOME:/var/jenkins_home
       #    - /var/run/docker.sock:/var/run/docker.sock
       #    - /usr/local/bin/docker:/usr/bin/docker
       #    - /opt/jenkins/:/var/lib/jenkins/
