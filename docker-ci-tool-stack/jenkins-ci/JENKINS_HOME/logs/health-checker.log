@@ -1,0 +1,6 @@
+Starting health checks at Mon Nov 14 23:15:23 UTC 2016
+Health check results at Mon Nov 14 23:15:23 UTC 2016:
+ * disk-space: Result{isHealthy=true}
+ * plugins: Result{isHealthy=false, message=There are 3 failed plugins: maven-plugin; analysis-core; dependency-check-jenkins-plugin}
+ * temporary-space: Result{isHealthy=true}
+ * thread-deadlock: Result{isHealthy=true}

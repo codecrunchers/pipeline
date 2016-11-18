@@ -55,7 +55,7 @@ VOLUME ${NEXUS_DATA}
 EXPOSE 8081
 
 # Add the files
-ADD rootfs /
+#ADD rootfs /
 
 # Change to root folder
 WORKDIR /root

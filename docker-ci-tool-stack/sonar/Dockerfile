@@ -49,7 +49,10 @@ RUN cd /opt/sonarqube/extensions/plugins/ \
   && curl -o sonar-java-plugin-4.2.1.6791.jar -fSL https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.2.1.6971.jar \
   && curl -o sonar-web-plugin-2.5.0.476.jar  -fSL https://sonarsource.bintray.com/Distribution/sonar-web-plugin/sonar-web-plugin-2.5.0.476.jar \
   && curl -o sonar-scm-git-plugin-1.2.jar -fSL https://sonarsource.bintray.com/Distribution/sonar-scm-git-plugin/sonar-scm-git-plugin-1.2.jar \
-  && curl -o sonar-dependency-check-plugin-1.0.3.jar -fSL https://github.com/stevespringett/dependency-check-sonar-plugin/releases/download/sonar-dependency-check-1.0.3/sonar-dependency-check-plugin-1.0.3.jar
+  && curl -o sonar-dependency-check-plugin-1.0.3.jar -fSL https://github.com/stevespringett/dependency-check-sonar-plugin/releases/download/sonar-dependency-check-1.0.3/sonar-dependency-check-plugin-1.0.3.jar \
+  && curl -o  sonar-checkstyle-plugin-2.4.jar -fSL https://sonarsource.bintray.com/Distribution/sonar-checkstyle-plugin/sonar-checkstyle-plugin-2.4.jar
+
+
 
 VOLUME ["$SONARQUBE_HOME/data", "$SONARQUBE_HOME/extensions"]
 
