@@ -1,2 +1,0 @@
-FROM gliderlabs/consul-server
-
